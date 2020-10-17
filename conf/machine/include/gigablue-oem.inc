@@ -16,7 +16,7 @@ MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	kernel-module-extrawlan-rt8812au \
 	kernel-module-extrawlan-rt8822bu", d)} \
 	gstreamer1.0-plugin-dvbmediasink \
-	${@bb.utils.contains("MACHINE_FEATURES", "hisi", "" , "gigablue-cfe", d)} \
+	gigablue-cfe \
 	"
 
 DVBPROVIDER = "kernel"

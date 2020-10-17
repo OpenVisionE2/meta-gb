@@ -9,7 +9,6 @@ COMPATIBLE_MACHINE = "^(gb800se|gb800ue)$"
 
 inherit kernel machine_kernel_pr samba_change_dialect
 
-
 SRCDATE = "20140904"
 
 SRC_URI[md5sum] = "0cb37745787e0ff5070e14a7bbf3dc5c"
