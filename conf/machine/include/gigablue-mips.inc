@@ -11,7 +11,7 @@ KERNEL_IMAGETYPE = "vmlinux"
 PREFERRED_PROVIDER_virtual/blindscan-dvbc = "gigablue-blindscan-utils-mips"
 PREFERRED_PROVIDER_virtual/blindscan-dvbs = "gigablue-blindscan-utils-mips"
 
-IMAGE_CMD_ubi_prepend = "\
+IMAGE_CMD_ubifs_prepend = "\
 	rm -rf ${IMAGE_ROOTFS}/boot/*; \
 	rm -rf ${IMAGE_ROOTFS}/tmp/*; \
 	"
