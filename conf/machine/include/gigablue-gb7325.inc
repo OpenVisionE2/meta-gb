@@ -10,8 +10,6 @@ PREFERRED_VERSION_linux-gigablue = "${KERNELVERSION}"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	gigablue-dvb-modules-gb7325 \
-	kernel-module-autofs4 \
-	kernel-module-fuse \
 	"
 
 DVBMEDIASINK_CONFIG = "--with-wmv"
