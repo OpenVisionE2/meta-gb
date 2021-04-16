@@ -18,7 +18,6 @@ MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	gigablue-cfe \
 	"
 
-DVBPROVIDER = "kernel"
 
 PREFERRED_PROVIDER_virtual/kernel = "linux-gigablue"
 
